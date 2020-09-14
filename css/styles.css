@@ -300,9 +300,7 @@ h1 {
 /* CARDS Style Starts */
 #section8 .row{
   margin-top: 5rem;
-  width: auto;
-  display: inline-block;
-
+  box-shadow: 5px 20px 100px 2px #888888;
 }
 
 /* .card-container{
@@ -311,10 +309,8 @@ display: grid;
 
 } */
 .card{
-position: relative;
-  height: auto;
-  width:25rem ;
-
+ width: 25rem;
+ height: auto;
 }
 .card-text{
 padding-top: 8px;

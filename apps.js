@@ -1,16 +1,15 @@
 
-
 // Reposition a div everytime the size of the screen changes to less than 1004px
-// setInterval(function(){
-//   if(($(window ).width()) < 1004){
-//     $(".two").addClass("reposition_div");
-//     $(".form").addClass("reposition_rowCheck");
-//   }
-//   else{
-//     $(".two").removeClass("reposition_div");
-//     $(".form").removeClass("reposition_rowCheck");
-//   }
-// }, 1000);
+setInterval(function(){
+  if(($(window ).width()) < 1004){
+    $(".two").addClass("reposition_div");
+    $(".form").addClass("reposition_rowCheck");
+  }
+  else{
+    $(".two").removeClass("reposition_div");
+    $(".form").removeClass("reposition_rowCheck");
+  }
+}, 1000);
 
 // Creating a slide
 var slideIndex = 1;
