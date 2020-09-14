@@ -1,0 +1,22 @@
+.row-card{
+ padding-top: 2rem
+}
+.cards-holder{
+  padding-left:100px;
+  box-shadow: 5px 20px 50px 2px #888888;
+}
+.card{
+  height: 23rem;
+  width: 20rem;
+
+}
+.card-text{
+padding-top: 8px;
+padding-bottom: 5px;
+}
+.card-title{
+  padding-top: 10px;
+}
+.card-img .card-img-size{
+  height: 70px;
+}
